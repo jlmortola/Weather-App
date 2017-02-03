@@ -1,0 +1,166 @@
+h1 {
+  text-align:center;
+
+  font-size:50px;
+  font-weight: 600;
+  margin-top:40px;
+}
+
+body {
+display: flex;
+justify-content: center;
+flex-direction: column;
+  align-items: center;
+  font-family: roboto;
+  height: 100vh;
+}
+
+.container {
+  width:80%;
+  height:50%;
+  flex-direction: column;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+.rectangle {
+  margin-top:30px;
+  width: 50%;
+  height:300px;
+  background-color:lightblue;
+  display:flex;
+      flex:1;
+  border-radius: 5px;
+}
+
+.image{
+
+  height:100%;
+  background-color:lightblue;
+  border-radius: 5px 0 0 5px;
+  flex:1;
+}
+
+.right{
+  display:flex;
+  flex-direction:column;
+  flex:2;
+
+}
+
+.temp{
+  width:100%;
+  height:100px;
+  background-color:#1982B2;
+  font-weight:400;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color: white;
+
+  font-size:80px;
+}
+
+.city{
+  width:100%;
+  height:100px;
+  background-color:#1982B2;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color: white;
+  font-size:40px;
+  border-radius: 0 5px 0 0;
+
+}
+
+.unit{
+  width:100%;
+  height:100px;
+  background-color:#1982B2;
+  border-radius: 0 0 5px 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.img {
+  height:100%;
+  width:100%;
+  padding: 6px 6px;
+}
+
+@media all and (max-width: 808px) {
+  .container {
+    width:80%;
+    height: 70%;
+
+  }
+
+  .rectangle {
+  display: flex;
+    flex-direction:column;
+    width:70%;
+    height:80%;
+    border-radius: 5px 5px;
+    justify-content:center;
+    align-items:center;
+
+  }
+
+
+  .right{
+
+  display: flex;
+    flex-direction:column;
+    width:100%;
+    height:500px;
+
+
+
+  }
+    .city {
+      border-radius: 0;
+      font-size:20px
+    }
+
+  .image {
+    height:50%;
+      width:50%;
+
+
+    border-radius: 5px 5px;
+  }
+
+  .temp{
+    font-size:50px;
+  }
+
+  .unit {
+    border-radius: 0 0 5px 5px;
+  }
+
+  button{
+    font-size: 16px;
+    width: 80px;
+  }
+
+}
+
+
+button{
+  border:0px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size:18px;
+  font-family: roboto;
+  font-weight: bold;
+  border-radius: 5px;
+  background:#FF576E;
+}
